@@ -61,6 +61,8 @@ for r in range(ROWS_TOTAL):
             elif current == "False":
                 st.session_state.grid[r][c] = "Maybe"
             elif current == "Maybe":
+                #for k in range(x):
+                #    st.session_state.grid[r][k] = "False"
                 st.session_state.grid[r][c] = "True"
             else:
                 st.session_state.grid[r][c] = "Unkown"
